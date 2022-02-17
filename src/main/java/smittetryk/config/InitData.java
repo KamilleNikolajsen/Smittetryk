@@ -43,11 +43,14 @@ public class InitData implements CommandLineRunner {
     county.setFkRegionCode("1082");
     countyRepository.save(county);
 
+    /*
     county.setName("Billund");
     county.setCountyCode("0530");
     county.setHref("https://api.dataforsyningen.dk/kommuner/0530");
     county.setFkRegionCode("1083");
     countyRepository.save(county);
+
+     */
 
 
 
